@@ -1,0 +1,7 @@
+{
+    "minecraft:bread": {
+        "id": "minecraft:bread",
+        "name": "Bread",
+        "icon": "/items/minecraft/bread.png"
+    }
+}

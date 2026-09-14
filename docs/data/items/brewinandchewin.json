@@ -1,0 +1,7 @@
+{
+    "brewinandchewin:flaxen_cheese_wedge": {
+        "id": "brewinandchewin:bread",
+        "name": "Bread",
+        "icon": "/items/minecraft/bread.png"
+    }
+}

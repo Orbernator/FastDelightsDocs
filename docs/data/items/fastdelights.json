@@ -1,0 +1,12 @@
+{
+    "fastdelights:cheeseburger": {
+        "name": "Cheeseburger",
+        "id": "fastdelights:cheeseburger",
+        "icon": "/items/fastdelights/cheeseburger.png"
+    },
+    "fastdelights:bun": {
+        "name": "Bun",
+        "id": "fastdelights:bun",
+        "icon": "/items/fastdelights/bun.png"
+    }
+}

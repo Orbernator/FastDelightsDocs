@@ -3,10 +3,10 @@
 features:
   - title: Beef Burgers
     details: The Burgers that are made with beef
-    link: ./items
+    link: ./beef-burgers
   - title: Chicken Burgers
     details: The Burgers that are made with Chicken
-    link: ./foods/index
+    link: ./chicken-burgers
   - title: Snack Foods
     details: The foods that are snacks
-    link: ./recipes/index
+    link: ./snack-foods

@@ -1,0 +1,29 @@
+{
+    "fastdelights:cheeseburger": {
+        "type": "crafting",
+
+        "pattern": [
+        [    
+            "fastdelights:bun",
+            "",
+            ""
+        ],
+        [
+            "farmersdelight:beef_patty",
+            "brewinandchewin:flaxen_cheese_wedge",
+            "fastdelights:sliced_pickles"
+        ],
+        [
+            "",
+            "",
+            "fastdelights:bun"
+        ]
+    ],
+
+    "result": {
+        "item": "fastdelights:cheeseburger",
+        "count": 1
+        }
+
+    }
+}

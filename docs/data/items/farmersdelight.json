@@ -1,0 +1,7 @@
+{
+    "farmersdelight:tomato": {
+        "name": "Tomato",
+        "id":"farmersdelight:tomato",   
+        "icon": "/items/farmersdelight/tomato.png" 
+    }
+}
