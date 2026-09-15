@@ -3,5 +3,15 @@
         "name": "Tomato",
         "id":"farmersdelight:tomato",   
         "icon": "/items/farmersdelight/tomato.png" 
+    },
+    "farmersdelight:bacon": {
+        "name": "Bacon",
+        "id": "farmersdelight:bacon",
+        "icon": "/items/farmersdelight/bacon.png"
+    },
+    "farmersdelight:beef_patty": {
+        "name": "Beef Patty",
+        "id": "farmersdelight:beef_patty",
+        "icon": "/items/farmersdelight/beef_patty.png"
     }
 }

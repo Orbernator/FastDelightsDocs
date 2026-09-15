@@ -3,5 +3,10 @@
         "id": "minecraft:bread",
         "name": "Bread",
         "icon": "/items/minecraft/bread.png"
+    },
+    "minecraft:stick": {
+        "id": "minecraft:stick",
+        "name": "Stick",
+        "icon": "/items/minecraft/stick.png"
     }
 }

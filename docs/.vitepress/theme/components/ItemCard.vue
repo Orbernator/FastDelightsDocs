@@ -31,7 +31,7 @@ const itemUrl = computed(() => {
     const slug = props.item.id
         .replace(":", "-")
         .replaceAll('_', '-')
-    return `/items${slug}`
+    return `/items/${slug}`
 })
 </script>
 <style scoped>

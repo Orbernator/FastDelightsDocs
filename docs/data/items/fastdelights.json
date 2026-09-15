@@ -1,12 +1,147 @@
 {
+    "fastdelights:bun": {
+        "name": "Bun",
+        "id": "fastdelights:bun",
+        "icon": "/items/fastdelights/bun.png"
+    },
     "fastdelights:cheeseburger": {
         "name": "Cheeseburger",
         "id": "fastdelights:cheeseburger",
         "icon": "/items/fastdelights/cheeseburger.png"
     },
-    "fastdelights:bun": {
-        "name": "Bun",
-        "id": "fastdelights:bun",
-        "icon": "/items/fastdelights/bun.png"
+    "fastdelights:chicken_n_cheeseburger": {
+        "name": "Chicken N Cheeseburger",
+        "id": "fastdelights:chicken_n_cheeseburger",
+        "icon": "/items/fastdelights/chicken_n_cheeseburger.png"
+    },
+    "fastdelights:bacon_cheeseburger": {
+        "name": "Bacon Cheeseburger",
+        "id": "fastdelights:bacon_cheeseburger",
+        "icon": "/items/fastdelights/bacon_cheeseburger.png"
+    },
+    "fastdelights:chicken_bacon_cheeseburger": {
+        "name": "Chicken Bacon Cheeseburger",
+        "id": "fastdelights:chicken_bacon_cheeseburger",
+        "icon": "/items/fastdelights/chicken_bacon_cheeseburger.png"
+    },
+    "fastdelights:chips":{
+        "name": "Chips",
+        "id": "fastdelights:chips",
+        "icon": "/items/fastdelights/chips.png"
+    },
+    "fastdelights:chips_with_tomato_sauce":{
+        "name": "Chips with Tomato Sauce",
+        "id": "fastdelights:chips_with_tomato_sauce",
+        "icon": "/items/fastdelights/chips_with_tomato_sauce.png"
+    },
+    "fastdelights:chicken_patty":{
+        "name": "Chicken Patty",
+        "id": "fastdelights:chicken_patty",
+        "icon": "/items/fastdelights/chicken_patty.png"
+    },
+    "fastdelights:raw_chicken_patty":{
+        "name": "Raw Chicken Patty",
+        "id": "fastdelights:raw_chicken_patty",
+        "icon": "/items/fastdelights/raw_chicken_patty.png"
+    },
+    "fastdelights:sliced_pickles": {
+        "name": "Sliced Pickles",
+        "id": "fastdelights:sliced_pickles",
+        "icon": "/items/fastdelights/sliced_pickles.png"
+    },
+    "fastdelights:sliced_potatoes": {
+        "name": "Sliced Potatoes",
+        "id": "fastdelights:sliced_potatoes",
+        "icon": "/items/fastdelights/sliced_potatoes.png"
+    },
+    "fastdelights:raw_hot_dog": {
+        "name": "Raw Hot Dog",
+        "id": "/fastdelights:raw_hot_dog",
+        "icon": "/items/fastdelights/raw_hot_dog.png"
+    },
+    "fastdelights:hot_dog": {
+        "name": "Hot Dog",
+        "id": "fastdelights:hot_dog",
+        "icon": "/items/fastdelights/hot_dog.png"
+    },
+    "fastdelights:hot_dog_with_sauce": {
+        "name": "Hot Dog with Sauce",
+        "id": "fastdelights:hot_dog_with_sauce",
+        "icon": "/items/fastdelights/hot_dog_with_sauce.png"
+    },
+    "fastdelights:hot_dog_with_sauce_and_cheese": {
+        "name": "Hot dog with Sauce and Cheese",
+        "id": "fastdelights:hot_dog_with_sauce_and_cheese",
+        "icon": "/items/fastdelights/hot_dog_with_sauce_and_cheese.png"
+    },
+    "fastdelights:cooked_hot_dog": {
+        "name": "Cooked Hot Dog",
+        "id": "fastdelights:cooked_hot_dog",
+        "icon": "/items/fastdelights/cooked_hot_dog.png"
+    },
+    "fastdelights:sliced_onion": {
+        "name": "Sliced Onion",
+        "id": "fastdelights:sliced_onion",
+        "icon": "/items/fastdelights/sliced_onion.png"
+    },
+    "fastdelights:onion_rings": {
+        "name": "Onion Rings",
+        "id": "fastdelights:onion_rings",
+        "icon": "/items/fastdelights/onion_rings.png"        
+    },
+    "fastdelights:mushed_vegtables": {
+        "name": "Mushed Vegtables",
+        "id" : "fastdelights:mushed_vegtables",
+        "icon": "/items/fastdelights/mushed_vegtables.png"
+    },
+    "fastdelights:veggie_patty": {
+        "name": "Veggie Patty",
+        "id": "fastdelights:veggie_patty",
+        "icon": "/items/fastdelights/veggie_patty.png"
+    },
+    "fastdelights:veggie_burger": {
+        "name": "Veggie Burger",
+        "id": "fastdelights:veggie_burger",
+        "icon": "/items/fastdelights/veggie_burger.png"
+    },
+    "fastdelights:frickles": {
+        "name": "Frickles",
+        "id": "fastdelights:frickles",
+        "icon": "/items/fastdelights/frickles.png"
+    },
+    "fastdelights:copper_pulveriser": {
+        "name": "Copper Pulveriser",
+        "id": "fastdelights:copper_pulveriser",
+        "icon": "/items/fastdelights/copper_pulverizer.png"
+    },
+    "fastdelights:iron_pulveriser": {
+        "name": "Iron Pulveriser",
+        "id": "fastdelights:iron_pulveriser",
+        "icon": "/items/fastdelights/iron_pulverizer.png"
+    },
+    "fastdelights:gold_pulveriser": {
+        "name": "Gold Pulveriser",
+        "id": "fastdelights:Gold_pulveriser",
+        "icon": "/items/fastdelights/gold_pulverizer.png"
+    },
+    "fastdelights:diamond_pulveriser": {
+        "name": "Diamond Pulveriser",
+        "id": "fastdelights:diamond_pulveriser",
+        "icon": "/items/fastdelights/diamond_pulverizer.png"
+    },
+    "fastdelights:netherite_pulveriser": {
+        "name": "Netherite Pulveriser",
+        "id": "fastdelights:netherite_pulveriser",
+        "icon": "/items/fastdelights/netherite_pulverizer.png"
+    },
+    "fastdelights:chipholder": {
+        "name": "Chipholder",
+        "id": "fastdelights:chipholder",
+        "icon": "/items/fastdelights/chipholder.png"
+    },
+    "fastdelights:oil_bucket": {
+        "name": "Oil Bucket",
+        "id": "fastdelights:oil_bucket",
+        "icon": "/items/fastdelights/oil_bucket.png"
     }
 }

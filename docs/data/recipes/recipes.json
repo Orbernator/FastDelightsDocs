@@ -25,5 +25,269 @@
         "count": 1
         }
 
+    },
+    "fastdelights:bacon_cheeseburger": {
+        "type": "crafting",
+        "pattern": [
+            [
+                "fastdelights:bun",
+                "farmersdelight:bacon",
+                ""
+            ],
+            [
+                "farmersdelight:beef_patty",
+                "brewinandchewin:flaxen_cheese_wedge",
+                "fastdelights:sliced_pickles"
+            ],
+            [
+                "",
+                "",
+                "fastdelights:bun"
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:bacon_cheeseburger",
+            "count": 1
+        }
+    },
+    "fastdelights:chicken_n_cheeseburger": {
+        "type": "crafting",
+        "pattern": [
+            [
+                "fastdelights:bun",
+                "",
+                ""
+            ],
+            [
+                "fastdelights:chicken_patty",
+                "brewinandchewin:flaxen_cheese_wedge",
+                "fastdelights:sliced_pickles"
+            ],
+            [
+                "",
+                "",
+                "fastdelights:bun"
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:chicken_n_cheeseburger",
+            "count": 1
+        }
+    },
+    "fastdelights:chicken_bacon_cheeseburger": {
+        "type": "crafting",
+        "pattern": [
+            [
+                "fastdelights:bun",
+                "farmersdelight:bacon",
+                ""
+            ],
+            [
+                "fastdelights:chicken_patty",
+                "brewinandchewin:flaxen_cheese_wedge",
+                "fastdelights:sliced_pickles"
+            ],
+            [
+                "",
+                "",
+                "fastdelights:bun"
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:chicken_bacon_cheeseburger",
+            "count": 1
+        }
+    },
+    "fastdelights:copper_pulveriser": {
+        "type": "crafting",
+        "pattern": [
+            [
+                "",
+                "minecraft:copper_ingot",
+                "minecraft:copper_ingot"
+            ],
+            [
+                "minecraft:copper_ingot",
+                "minecraft:stick",
+                ""
+            ],
+            [
+                "minecraft:stick",
+                "",
+                ""
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:copper_pulveriser",
+            "count": 1
+        }
+    },
+    "fastdelights:iron_pulveriser": {
+        "type": "crafting",
+        "pattern": [
+            [
+                "",
+                "minecraft:iron_ingot",
+                "minecraft:iron_ingot"
+            ],
+            [
+                "minecraft:iron_ingot",
+                "minecraft:stick",
+                ""
+            ],
+            [
+                "minecraft:stick",
+                "",
+                ""
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:iron_pulveriser",
+            "count": 1
+        }
+    },
+    "fastdelights:gold_pulveriser": {
+        "type": "crafting",
+        "pattern": [
+            [
+                "",
+                "minecraft:gold_ingot",
+                "minecraft:gold_ingot"
+            ],
+            [
+                "minecraft:gold_ingot",
+                "minecraft:stick",
+                ""
+            ],
+            [
+                "minecraft:stick",
+                "",
+                ""
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:gold_pulveriser",
+            "count": 1
+        }
+    },
+    "fastdelights:diamond_pulveriser": {
+        "type": "crafting",
+        "pattern": [
+            [
+                "",
+                "minecraft:diamond",
+                "minecraft:diamond"
+            ],
+            [
+                "minecraft:diamond",
+                "minecraft:stick",
+                ""
+            ],
+            [
+                "minecraft:stick",
+                "",
+                ""
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:diamond_pulveriser",
+            "count": 1
+        }
+    },
+    "fastdelights:netherite_pulveriser": {
+        "type": "crafting",
+        "pattern": [
+            [
+                "",
+                "minecraft:netherite_ingot",
+                "minecraft:netherite_ingot"
+            ],
+            [
+                "minecraft:netherite_ingot",
+                "minecraft:stick",
+                ""
+            ],
+            [
+                "minecraft:stick",
+                "",
+                ""
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:netherite_pulveriser",
+            "count": 1
+        }
+    },
+    "fastdelights:chipholder": {
+        "type": "crafting",
+        "pattern": [
+            [
+                "minecraft:paper",
+                "",
+                "minecraft:paper"
+            ],
+            [
+                "minecraft:paper",
+                "",
+                "minecraft:paper"
+            ],
+            [
+                "minecraft:paper",
+                "minecraft:paper",
+                "minecraft:paper"
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:chipholder",
+            "count": 1
+        }
+    },
+    "fastdelights:oil_bucket": {
+        "type": "crafting",
+        "pattern": [
+            [
+                "",
+                "minecraft:coal",
+                ""
+            ],
+            [
+                "minecraft:coal",
+                "minecraft:water_bucket",
+                "minecraft:coal"
+            ],
+            [
+                "",
+                "minecraft:coal",
+                ""
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:oil_bucket",
+            "count": 1
+        }
+    },
+    "fastdelights:raw_hot_dog": {
+        "type": "crafting",
+        "pattern": [
+            [
+                "",
+                "",
+                ""
+            ],
+            [
+                "farmersdelight:beef_patty",
+                "farmersdelight:beef_patty",
+                "farmersdelight:beef_patty"
+            ],
+            [
+                "",
+                "",
+                ""
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:raw_hot_dog",
+            "count": 3
+        }
     }
 }
