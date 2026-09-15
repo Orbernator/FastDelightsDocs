@@ -13,5 +13,10 @@
         "name": "Beef Patty",
         "id": "farmersdelight:beef_patty",
         "icon": "/items/farmersdelight/beef_patty.png"
+    },
+    "farmersdelight:minced_beef": {
+        "name": "Minced Beef",
+        "id": "farmersdelight:minced_beef",
+        "icon": "/items/farmersdelight/minced_beef.png"
     }
 }

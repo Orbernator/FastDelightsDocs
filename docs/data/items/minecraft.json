@@ -8,5 +8,45 @@
         "id": "minecraft:stick",
         "name": "Stick",
         "icon": "/items/minecraft/stick.png"
+    },
+    "minecraft:copper_ingot": {
+        "id": "minecraft:copper_ingot",
+        "name": "Copper Ingot",
+        "icon": "/items/minecraft/copper_ingot.png"
+    },
+    "minecraft:iron_ingot": {
+        "id": "minecraft:iron_ingot",
+        "name": "Iron Ingot",
+        "icon": "/items/minecraft/iron_ingot.png"
+    },
+    "minecraft:gold_ingot": {
+        "id": "minecraft:gold_ingot",
+        "name": "Gold Ingot",
+        "icon": "/items/minecraft/gold_ingot.png"
+    },
+    "minecraft:diamond": {
+        "id": "minecraft:diamond",
+        "name": "Diamond",
+        "icon": "/items/minecraft/diamond.png"
+    },
+    "minecraft:netherite_ingot": {
+        "id": "minecraft:netherite_ingot",
+        "name": "Netherite Ingot",
+        "icon": "/items/minecraft/netherite_ingot.png"
+    },
+    "minecraft:paper": {
+        "id": "minecraft:paper",
+        "name": "Paper",
+        "icon": "/items/minecraft/paper.png"
+    },
+    "minecraft:water_bucket": {
+        "id": "minecraft:water_bucket",
+        "name": "Water Bucket",
+        "icon": "/items/minecraft/water_bucket.png"
+    },
+    "minecraft:coal":{
+        "id": "minecraft:coal",
+        "name": "Coal",
+        "icon": "/items/minecraft/coal.png"
     }
 }
