@@ -48,5 +48,15 @@
         "id": "minecraft:coal",
         "name": "Coal",
         "icon": "/items/minecraft/coal.png"
+    },
+    "minecraft:potato": {
+        "id": "minecraft:potato",
+        "name": "Potato",
+        "icon": "/items/minecraft/potato.png"
+    },
+    "minecraft:raw_chicken": {
+        "id": "minecraft:raw_chicken",
+        "name": "Raw Chicken",
+        "icon": "/items/minecraft/raw_chicken.png"
     }
 }

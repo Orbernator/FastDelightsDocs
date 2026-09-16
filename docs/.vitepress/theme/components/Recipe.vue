@@ -1,70 +1,66 @@
 <template>
-    <div
-        v-if="recipe"
-        class="recipe"
-    >
-        <div class="crafting-grid">
-            <ItemSlot
-                v-for="(itemId, index) in flatPattern"
-                :key="index"
-                :item="getItem(itemId)"
-            />
-        </div>
-        <div class="arrow">
-            ->
-        </div>
-        <ItemSlot
-        :item="getItem(recipe.result.item)"
-        :count="recipe.result.count"
-        />    
-    </div>
-    <div v-else>
-        Recipe not found.
-    </div>
+  <CraftingRecipe
+    v-if="recipe.type === 'crafting'"
+    :recipe="recipe"
+  />
+
+  <SmeltingRecipe
+    v-else-if="
+      recipe.type === 'smelting' ||
+      recipe.type === 'blasting' ||
+      recipe.type === 'smoking'
+    "
+    :recipe="recipe"
+  />
+
+  <div
+    v-else
+    class="unknown-recipe"
+  >
+    Unknown recipe type:
+    <code>{{ recipe.type }}</code>
+  </div>
 </template>
+
 <script setup lang="ts">
 
-import minecraftItems from '../../../data/items/minecraft.json'
-import fastdelightsItems from '../../../data/items/fastdelights.json'
-import farmersdelightItems from '../../../data/items/farmersdelight.json'
-import brewinandchewinItems from '../../../data/items/brewinandchewin.json'
-import recipes from '../../../data/recipes/recipes.json'
-import ItemSlot from './ItemSlot.vue'
-const props = defineProps<{
-    id: string
+import CraftingRecipe from './recipes/CraftingRecipe.vue'
+import SmeltingRecipe from './recipes/SmeltingRecipe.vue'
+
+interface Recipe {
+  id: string
+  type: string
+
+  pattern?: (string | null)[][]
+
+  input?: string
+
+  result: {
+    item: string
+    count: number
+  }
+
+  experience?: number
+
+  cookingTime?: number
+}
+
+defineProps<{
+  recipe: Recipe
 }>()
-const items: Record<string, (typeof minecraftItems)[keyof typeof minecraftItems]> = {
-    ...minecraftItems,
-    ...fastdelightsItems,
-    ...farmersdelightItems,
-    ...brewinandchewinItems
-}
-const recipe = (recipes as Record<string, typeof recipes[keyof typeof recipes]>)[props.id]
-const flatPattern = recipe
-    ? recipe.pattern.flat()
-    : []
-function getItem(id: string | null) {
-    if (!id) return undefined
-    return items[id]
-}
+
 </script>
+
 <style scoped>
-.recipe {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    width: fit-content;
-    padding: 20px;
-    background: #222;
-    border: 2px solid #444;
+
+.unknown-recipe {
+  padding: 15px;
+
+  background: var(--vp-c-bg-soft);
+
+  border: 1px solid var(--vp-c-divider);
+
+  border-radius: 8px;
 }
-.crafting-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 64px);
-    gap: 3px;
-}
-.arrow {
-    color: white;
-    font-size: 40px;
-}
+
 </style>
