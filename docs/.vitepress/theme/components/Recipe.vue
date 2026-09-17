@@ -13,6 +13,11 @@
     :recipe="recipe"
   />
 
+  <CuttingRecipe
+    v-else-if="recipe.type === 'cutting'"
+    :recipe="recipe"
+  />
+
   <div
     v-else
     class="unknown-recipe"
@@ -26,6 +31,7 @@
 
 import CraftingRecipe from './recipes/CraftingRecipe.vue'
 import SmeltingRecipe from './recipes/SmeltingRecipe.vue'
+import CuttingRecipe from './recipes/CuttingRecipe.vue'
 
 interface Recipe {
   id: string

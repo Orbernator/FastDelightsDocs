@@ -1,32 +1,34 @@
 {
-    "fastdelights:cheeseburger": {
-        "type": "crafting",
-
-        "pattern": [
-        [    
-            "fastdelights:bun",
-            "",
-            ""
+  "fastdelights:cheeseburger": [
+    {
+      "id": "fastdelights:cheeseburger_crafting",
+      "type": "crafting",
+      "pattern": [
+        [
+          "fastdelights:bun",
+          "",
+          ""
         ],
         [
-            "farmersdelight:beef_patty",
-            "brewinandchewin:flaxen_cheese_wedge",
-            "fastdelights:sliced_pickles"
+          "farmersdelight:beef_patty",
+          "brewinandchewin:flaxen_cheese_wedge",
+          "fastdelights:sliced_pickles"
         ],
         [
-            "",
-            "",
-            "fastdelights:bun"
+          "",
+          "",
+          "fastdelights:bun"
         ]
-    ],
-
-    "result": {
+      ],
+      "result": {
         "item": "fastdelights:cheeseburger",
         "count": 1
-        }
-
-    },
-    "fastdelights:bacon_cheeseburger": {
+      }
+    }
+  ],
+  "fastdelights:bacon_cheeseburger": [
+    {
+        "id": "fastdelights:bacon_cheesebuger_crafting",
         "type": "crafting",
         "pattern": [
             [
@@ -49,8 +51,11 @@
             "item": "fastdelights:bacon_cheeseburger",
             "count": 1
         }
-    },
-    "fastdelights:chicken_n_cheeseburger": {
+    }
+  ],
+  "fastdelights:chicken_n_cheeseburger": [
+    {
+        "id": "fastdelights:chicken_n_cheeseburger_crafting",
         "type": "crafting",
         "pattern": [
             [
@@ -73,8 +78,11 @@
             "item": "fastdelights:chicken_n_cheeseburger",
             "count": 1
         }
-    },
-    "fastdelights:chicken_bacon_cheeseburger": {
+    }
+  ],
+  "fastdelights:chicken_bacon_cheeseburger": [
+    {
+        "id": "fastdelights:chicken_bacon_cheeseburger_crafting",
         "type": "crafting",
         "pattern": [
             [
@@ -97,8 +105,11 @@
             "item": "fastdelights:chicken_bacon_cheeseburger",
             "count": 1
         }
-    },
-    "fastdelights:copper_pulveriser": {
+    }
+  ],
+  "fastdelights:copper_pulveriser": [
+    {
+        "id": "fastdelights:copper_pulveriser_crafting",
         "type": "crafting",
         "pattern": [
             [
@@ -121,8 +132,11 @@
             "item": "fastdelights:copper_pulveriser",
             "count": 1
         }
-    },
-    "fastdelights:iron_pulveriser": {
+    }
+  ],
+  "fastdelights:iron_pulveriser": [
+    {
+        "id": "fastdelights:iron_pulveriser_crafting",
         "type": "crafting",
         "pattern": [
             [
@@ -145,8 +159,11 @@
             "item": "fastdelights:iron_pulveriser",
             "count": 1
         }
-    },
-    "fastdelights:gold_pulveriser": {
+    }
+  ],
+  "fastdelights:gold_pulveriser": [
+    {
+        "id": "fastdelights:gold_pulveriser_crafting",
         "type": "crafting",
         "pattern": [
             [
@@ -169,8 +186,11 @@
             "item": "fastdelights:gold_pulveriser",
             "count": 1
         }
-    },
-    "fastdelights:diamond_pulveriser": {
+    }
+  ],
+  "fastdelights:diamond_pulveriser": [
+    {
+        "id": "fastdelights:diamond_pulveriser_crafting",
         "type": "crafting",
         "pattern": [
             [
@@ -193,8 +213,11 @@
             "item": "fastdelights:diamond_pulveriser",
             "count": 1
         }
-    },
-    "fastdelights:netherite_pulveriser": {
+    }
+  ],
+  "fastdelights:netherite_pulveriser": [
+    {
+        "id": "fastdelights:netherite_pulveriser_crafting",
         "type": "crafting",
         "pattern": [
             [
@@ -217,8 +240,11 @@
             "item": "fastdelights:netherite_pulveriser",
             "count": 1
         }
-    },
-    "fastdelights:chipholder": {
+    }
+  ],
+  "fastdelights:chipholder": [
+    {
+        "id": "fastdelights:chipholder_crafting",
         "type": "crafting",
         "pattern": [
             [
@@ -241,8 +267,11 @@
             "item": "fastdelights:chipholder",
             "count": 1
         }
-    },
-    "fastdelights:oil_bucket": {
+    }
+  ],
+  "fastdelights:oil_bucket": [
+    {
+        "id": "fastdelights:oil_bucket_crafting",
         "type": "crafting",
         "pattern": [
             [
@@ -265,8 +294,11 @@
             "item": "fastdelights:oil_bucket",
             "count": 1
         }
-    },
-    "fastdelights:raw_hot_dog": {
+    }
+  ],
+  "fastdelights:raw_hot_dog": [
+    {
+        "id": "fastdelights:raw_hot_dog_crafting",
         "type": "crafting",
         "pattern": [
             [
@@ -290,4 +322,53 @@
             "count": 3
         }
     }
-}
+  ],
+  "fastdelights:chicken_patty": [
+    {
+        "id": "fastdelights:chicken_patty_smelting",
+        "type": "smelting",
+        "input": "fastdelights:raw_chicken_patty",
+        "result": {
+            "item": "fastdelights:chicken_patty",
+            "count": 1
+        },
+        "experience": 0.25,
+        "cookingTime": 60
+    },
+    {
+        "id": "fastdelights:chicken_patty_smoking",
+        "type": "smoking",
+        "input": "fastdelights:raw_chicken_patty",
+        "result": {
+            "item": "fastdelights:chicken_patty",
+            "count": 1
+        },
+        "experience": 0.25,
+        "cookingTime": 30
+    }
+  ],
+  "fastdelights:cooked_hot_dog": [
+    {
+        "id": "fastdelights:cooked_hot_dog_smelting",
+        "type": "smelting",
+        "input": "fastdelights:raw_hot_dog",
+        "result": {
+            "item": "fastdelights:cooked_hot_dog",
+            "count": 1
+        },
+        "experience": 0.25,
+        "cookingtime": 60
+    },
+    {
+        "id": "fastdelights:cooked_hot_dog_smoking",
+        "type": "smoking",
+        "input": "fastdelights:raw_hot_dog",
+        "result": {
+            "item": "fastdelights:cooked_hot_dog",
+            "count": 1
+        },
+        "experience": 0.25,
+        "cookingtime": 30
+    }
+  ]
+}   
