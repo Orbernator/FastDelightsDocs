@@ -1,9 +1,9 @@
 <script setup>
 import RecipeList from '../.vitepress/theme/components/RecipeList.vue'
 </script>
-# Chicken Patty
-Let the Chicken Delights begin!
+# Cooked Hot Dog
+The Hot Dog has been Cooked
 <br>
 
 ## Recipe
-<RecipeList item="fastdelights:chicken_patty" />
+<RecipeList item="fastdelights:cooked_hot_dog" />

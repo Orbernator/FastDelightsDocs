@@ -13,18 +13,24 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Recipes',
-        link: "/recipes/index",
+        text: 'Items',
+        link: "/items",
         items: [
-          { text: 'Beef Burgers', link: '/recipes/beef-burgers' },
-          { text: 'Runtime API Examples', link: '/recipes/chicken-burgers' },
-          { text: "Snack Foods", link: '/recipes/snack-foods'}
+
+        ]
+      },
+      {
+        text: 'Contributing',
+        link: "/contributing",
+        items: [
+          
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/orbernator/fast-delights-docs' }
+      { icon: 'github', link: 'https://github.com/orbernator/fast-delights-docs' },
+      { icon: 'email', link: 'mailto:orbernator@teamorbi.net'},
     ]
   }
 })

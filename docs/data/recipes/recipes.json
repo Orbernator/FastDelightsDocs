@@ -28,7 +28,7 @@
   ],
   "fastdelights:bacon_cheeseburger": [
     {
-        "id": "fastdelights:bacon_cheesebuger_crafting",
+        "id": "fastdelights:bacon_cheeseburger_crafting",
         "type": "crafting",
         "pattern": [
             [
@@ -51,6 +51,26 @@
             "item": "fastdelights:bacon_cheeseburger",
             "count": 1
         }
+    },
+    {
+        "id": "fastdelights:bacon_cheeseburger_shapeless",
+        "type": "crafting",
+        "pattern": [
+            [
+                "fastdelights:cheeseburger",
+                "farmersdelight:bacon",
+                ""
+            ],
+            [
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                ""
+            ]
+        ]
     }
   ],
   "fastdelights:chicken_n_cheeseburger": [
@@ -369,6 +389,12 @@
         },
         "experience": 0.25,
         "cookingtime": 30
+    }
+  ],
+  "fastdelights:bun": [
+    {
+        "id": "fastdelights:bun_cutting",
+        "type": "cutting",
     }
   ]
 }   

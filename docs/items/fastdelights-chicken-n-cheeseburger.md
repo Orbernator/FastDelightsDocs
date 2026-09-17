@@ -6,7 +6,7 @@ const recipe = recipes['fastdelights:chicken_n_cheeseburger'][0]
 </script>
 # Chicken N Cheeseburger
 
-Cheesy and Chickeny at the same time!
+*MMMMMM* Cheeseburger, Chicken *MMMMMMMM* I'm hungry, is anyone else hungry?
 <br>
 
 ## Recipe

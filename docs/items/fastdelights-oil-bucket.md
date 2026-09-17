@@ -6,7 +6,7 @@ const recipe = recipes['fastdelights:oil_bucket'][0]
 </script>
 # Oil Bucket
 
-Cheese on burger.
+Oil, very essential in making unhealty foods!
 <br>
 
 ## Recipe

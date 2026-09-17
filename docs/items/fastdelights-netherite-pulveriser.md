@@ -6,6 +6,7 @@ const recipe = recipes['fastdelights:netherite_pulveriser'][0]
 </script>
 # Netherite Pulverizer
 
+Show that you value your smashing with the most expensive pulveriser in the game!
 <br>
 
 ## Recipe

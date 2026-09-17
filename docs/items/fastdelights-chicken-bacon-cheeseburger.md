@@ -6,7 +6,7 @@ const recipe = recipes['fastdelights:chicken_bacon_cheeseburger'][0]
 </script>
 # Chicken Bacon Cheeseburger
 
-Chicken, but with bacon!
+Just like the first one, but with bacon!
 <br>
 
 ## Recipe
