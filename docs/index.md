@@ -8,21 +8,18 @@ hero:
   tagline: Documentation for Hungry People
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Modrinth
+      link: https://modrinth.com/mod/fast-delights
     - theme: alt
       text: API Examples
       link: /api-examples
 
 features:
   - title: Items
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: All the items in the mod!
     link: ./items
-  - title: Foods
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: ./foods/index
-  - title: Recipes
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: ./recipes/index
+  - title: Contributing
+    details: How to help out!
+    link: ./contributing
 ---
 

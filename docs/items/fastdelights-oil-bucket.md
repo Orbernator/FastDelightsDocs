@@ -1,7 +1,13 @@
+<script setup>
+import Recipe from '../.vitepress/theme/components/Recipe.vue'
+import recipes from '../data/recipes/recipes.json'
+
+const recipe = recipes['fastdelights:oil_bucket'][0]
+</script>
 # Oil Bucket
 
 Cheese on burger.
 <br>
 
 ## Recipe
-<Recipe id="fastdelights:oil_bucket"/>
+<Recipe :recipe="recipe" />
