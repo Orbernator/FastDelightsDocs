@@ -395,6 +395,190 @@
     {
         "id": "fastdelights:bun_cutting",
         "type": "cutting",
+        "input": "minecraft:bread",
+        "tool": {
+            "type": "item",
+            "item": "farmersdelight:iron_knife"
+        },
+        "result": {
+            "item": "fastdelights:bun",
+            "count": 2
+        }
+    }
+  ],
+  "fastdelights:sliced_potatoes": [
+    {
+        "id": "fastdelights:sliced_potatoes_cutting",
+        "type": "cutting",
+        "input": "minecraft:potato",
+        "tool": {
+            "type": "item",
+            "item": "farmersdelight:iron_knife"
+        },
+        "result": {
+            "item": "fastdelights:sliced_potatoes",
+            "count": 2
+        }
+    }
+  ],
+  "fastdelights:sliced_pickles": [
+    {
+        "id": "fastdelights:sliced_pickles_cutting",
+        "type": "cutting",
+        "input": "minecraft:sea_pickles",
+        "tool": {
+            "type": "item",
+            "item": "farmersdelight:iron_knife"
+        },
+        "result": {
+            "item": "fastdelights:sliced_pickles",
+            "count": 2
+        }
+    }
+  ],
+  "fastdelights:sliced_onion": [
+    {
+        "id": "fastdelights:sliced_onion_cutting",
+        "type": "cutting",
+        "input": "farmerdelights:sliced_onion",
+        "tool": {
+            "type": "item",
+            "item": "farmersdelight:iron_knife"
+        },
+        "result": {
+            "item": "fastdelights:sliced_onion",
+            "count": 2
+        }
+    }
+  ],
+  "fastdelights:raw_chicken_patty": [
+    {
+        "id": "fastdelights:raw_chicken_patty_smashin",
+        "type": "cutting",
+        "input": "minecraft:chicken",
+        "tool": {
+            "type": "item",
+            "item": "farmersdelight:iron_pulveriser"
+        },
+        "result": {
+            "item": "farmersdelight:raw_chicken_patty",
+            "count": 2
+        }
+    }
+  ],
+  "fastdelights:chips_with_tomato_sauce": [
+    {
+        "id": "fastdelights:chips_with_tomato_sauce_crafting",
+        "type": "crafting",
+        "pattern": [
+            [
+                "fastdelights:chips",
+                "farmerdelights:tomato_sauce",
+                ""
+            ],
+            [
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                ""
+            ]
+        ],
+        "result": {
+            "item": "farmersdelight:chips_with_tomato_sauce",
+            "count": 1
+        }
+    }
+  ],
+  "fastdelights:hot_dog": [
+    {
+        "id": "fastdelights:hot_dog_crafting",
+        "type": "crafting",
+        "pattern": [
+            [
+                "fastdelights:bun",
+                "fastdelights:cooked_hot_dog",
+                ""
+            ],
+            [
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                ""
+            ]
+        ],
+        "result": {
+            "item": "farmersdelight:hot_dog",
+            "count": 1
+        }
+    }
+  ],
+  "fastdelights:hot_dog_with_sauce": [
+    {
+        "id": "fastdelights:hot_dog_with_sauce_crafting",
+        "type": "crafting",
+        "pattern": [
+            [
+                "fastdelights:hot_dog",
+                "farmerdelights:tomato_sauce",
+                ""
+            ],
+            [
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                ""
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:hot_dog_with_sauce",
+            "count": 1
+        }
+    }
+  ],
+  "fastdelights:hot_dog_with_sauce_and_cheese": [
+    {
+        "id": "fastdelights:hot_dog_with_sauce_and_cheese_crafting",
+        "type": "crafting",
+        "pattern": [
+            [
+                "fastdelights:hot_dog_with_sauce",
+                "brewinandchewin:flaxen_cheese_wedge",
+                ""
+            ],
+            [
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                ""
+            ]
+        ],
+        "result": {
+            "item": "fastdelights:hot_dog_with_sauce_and_cheese",
+            "count": 1
+        }
+    }
+  ],
+  "fastdelights:chips": [
+    {
+        "id": "fastdelights:chips_cooking",
+        "type"
     }
   ]
+
 }   
