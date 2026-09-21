@@ -577,8 +577,50 @@
   "fastdelights:chips": [
     {
         "id": "fastdelights:chips_cooking",
-        "type"
+        "type": "cooking",
+        "ingredients": [
+            "fastdelights:sliced_potatoes",
+            "fastdelights:oil_bucket"
+        ],
+        "result": {
+            "item": "fastdelights:chips",
+            "count": 1
+        },
+        "experience": 0.35,
+        "cookingTime": 100
+    }
+  ],
+  "fastdelights:onion_rings": [
+    {
+        "id": "fastdelights:onion_rings_cooking",
+        "type": "cooking",
+        "ingredients": [
+            "fastdelights:sliced_onion",
+            "fastdelights:oil_bucket"
+        ],
+        "result": {
+            "item": "fastdelights:onion_rings",
+            "count": 1
+        },
+        "experience": 0.35,
+        "cookingTime": 100
+    }
+  ],
+  "fastdelights:frickles": [
+    {
+
+        "id": "fastdelights:frickles_cooking",
+        "type": "cooking",
+        "ingredients": [
+            "fastdelights:sliced_pickles",
+            "fastdelights:oil_bucket"
+        ],
+        "result": {
+            "item": "fastdelights:sliced_pickles",
+            "count": 1
+        },
+        "experience": 0.35,
+        "cookingTime": 100
     }
   ]
-
 }   
