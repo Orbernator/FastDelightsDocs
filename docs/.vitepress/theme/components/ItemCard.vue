@@ -1,10 +1,10 @@
 <template>
     <a 
-        :href="itemUrl"
+        :href="withBase(itemUrl)"
         class="card"
     >
         <img
-            :src="item.icon"
+            :src="withBase(item.icon)"
             :alt="item.name"
         />
         <div class="info">
@@ -19,6 +19,7 @@
 </template>
 <script setup lang="ts">
 import {computed} from 'vue'
+import {withBase} from 'vitepress'
 interface Item {
     id: string
     name: string

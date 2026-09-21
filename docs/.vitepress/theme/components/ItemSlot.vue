@@ -6,7 +6,7 @@
         :title="item.name"
     >
         <img
-            :src="item.icon"
+            :src="withBase(item.icon)"
             :alt="item.name"
         />
     <span
@@ -22,6 +22,7 @@
     />
 </template>
 <script setup lang="ts">
+import { withBase } from 'vitepress'
 import {computed} from 'vue'
 interface Item {
     id: string

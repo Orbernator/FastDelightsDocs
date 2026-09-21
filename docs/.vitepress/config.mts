@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Fast Delights Docs",
+  base: '/FastDelightsDocs/',
+  cleanUrls: true,
   description: "Docs for Hungry People",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
